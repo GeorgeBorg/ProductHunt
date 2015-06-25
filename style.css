@@ -227,8 +227,29 @@ a {
   height: 38px;
   float: right;
   margin-top: 6px;
-
 }
+
+.bio {
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #BBB;
+  border-width:thin;
+  background-color: white;
+  display: none;
+  margin-top: 50px;
+}
+
+.avatar:hover .bio {
+  display:block;
+}
+
+.bio:hover .bio {
+  display:block;
+}
+
 .post-comments {
   margin-left: 30px;
   margin-top: 10px;
